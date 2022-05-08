@@ -217,7 +217,7 @@
         fun_layer { // 9
             label = "Fun";
             bindings = <
-                &kp F12     &kp F7     &kp F8      &kp F9     &kp PSCRN         &to DEF_L       &togl CAL_L      &trans       &trans       &bt BT_CLR
+                &kp F12     &kp F7     &kp F8      &kp F9     &kp PSCRN         &to DEF_L       &tog CAL_L      &trans       &trans       &bt BT_CLR
                 &kp F11     &kp F4     &kp F5      &kp F6     &kp SLCK          &trans          &trans         &trans       &trans       &trans
                 &kp F10     &kp F1     &kp F2      &kp F3     &kp PAUSE_BREAK   &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
                                                    &none      &none             &trans          &trans
