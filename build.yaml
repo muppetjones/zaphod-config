@@ -14,5 +14,3 @@
 ---
 include:
   - board: zaphod
-    artifact-name: zaphod
-    shield: arm/zaphod
