@@ -41,13 +41,13 @@ COMBO(underscore, &kp UNDER, 1 2, BASE)
 /* Brackets */
 COMBO(left_parenthesis, &kp LEFT_PARENTHESIS, 6 7, NUM)
 COMBO(right_parenthesis, &kp RIGHT_PARENTHESIS, 7 8, NUM)
-COMBO(parentheses, &macro_parentheses, 6 7 8, NUM)
+// COMBO(parentheses, &macro_parentheses, 6 7 8, NUM)
 COMBO(left_bracket, &kp LEFT_BRACKET, 16 17, NUM)
 COMBO(right_bracket, &kp RIGHT_BRACKET, 17 18, NUM)
-COMBO(brackets, &macro_brackets, 16 17 18, NUM)
+// COMBO(brackets, &macro_brackets, 16 17 18, NUM)
 COMBO(left_brace, &kp LEFT_BRACE, 26 27, NUM)
 COMBO(right_brace, &kp RIGHT_BRACE, 27 28, NUM)
-COMBO(braces, &macro_braces, 26 27 28, NUM)
+// COMBO(braces, &macro_braces, 26 27 28, NUM)
 
 /* Text processing */
 // COMBO(undo, &kp LG(Z), 21 22, BASE)
