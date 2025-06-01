@@ -13,4 +13,6 @@
 #
 ---
 include:
-  - board: zaphod
+  - board: zaphod_controller
+    shield: zaphod
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
