@@ -49,9 +49,9 @@
     combos {
         #include "combos.dtsi"
     };
-    macros {
-        #include "macros.dtsi"
-    };
+    // macros {
+    //     #include "macros.dtsi"
+    // };
 
     behaviors {
         skq: sticky_key_quick_release {
@@ -90,7 +90,7 @@
         compatible = "zmk,keymap";
 
         base_layer {
-            label = "Base";
+            display-name = "Base";
             bindings = <
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
     &kp Q       &kp W       &kp F       &kp P       &kp B        &kp J       &kp L       &kp U       &kp Y       &kp APOS
@@ -105,7 +105,7 @@
         };
 
         num_layer {
-            label = "Num";
+            display-name = "Num";
             bindings = <
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
     ___         ___         &kp COLON   XXX         &key_repeat  &kp GRAVE   &kp N7      &kp N8      &kp N9      &kp BSLH
@@ -120,7 +120,7 @@
         };
 
         nav_layer {
-            label = "Nav";
+            display-name = "Nav";
             bindings = <
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
     ___         ___         &kp LA(F)   &kp LA(B)   &key_repeat  SK(HYP)     &kp LS(TAB) &kp TAB     &kp ESC     XXX
@@ -135,7 +135,7 @@
         };
 
         media_layer {
-            label= "MED";
+            display-name = "MED";
             bindings = <
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
     &trans      &trans      &trans      &trans      &trans       &trans      &trans      &trans      &kp C_BRI_UP &kp C_VOL_UP
@@ -148,7 +148,7 @@
         };
 
         adjust_layer {
-            label= "ADJ";
+            display-name = "ADJ";
             bindings = <
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
     &kp F12    &kp F7     &kp F8    &kp F9    &kp PSCRN         &trans          &trans          &trans       &trans       &bt BT_CLR
