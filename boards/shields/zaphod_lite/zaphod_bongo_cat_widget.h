@@ -6,7 +6,7 @@
 
 
 #include <lvgl.h>
-#include <zephyr/kernel.h>
+#include <kernel.h>
 
 struct zaphod_bongo_cat_widget {
     sys_snode_t node;
