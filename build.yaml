@@ -16,4 +16,5 @@ include:
   - board: zaphod
     artifact-name: zaphod
     # shield: zaphod
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
