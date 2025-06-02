@@ -8,6 +8,12 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 
+#include "zaphod-layouts.dtsi"
+
+&physical_layout0 {
+    transform = <&transform>;
+};
+
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -42,6 +48,7 @@
 		zmk,matrix_transform = &transform;
 		zmk,battery = &vbatt;
 		zephyr,console = &cdc_acm_uart;
+		zmk,physical-layout = &physical_layout0
 	};
 
 	leds {
