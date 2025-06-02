@@ -35,12 +35,9 @@
 
 &lt {
   retro-tap;
-  tapping_term_ms = <100>;
+  tapping-term-ms = <100>;
 };
 
-&kscan {
-  debounce-period = <14>;
-};
 
 #define BT(n) BT_SEL n
 
@@ -69,7 +66,7 @@
             compatible = "zmk,behavior-hold-tap";
             // label = "NOT_SO_STICKY_KEY";
             #binding-cells = <2>;
-            tapping_term_ms = <200>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&sk>;
         };
@@ -79,7 +76,7 @@
             compatible = "zmk,behavior-hold-tap";
             // label = "MO_WITH_TAP";
             #binding-cells = <2>;
-            tapping_term_ms = <0>;
+            tapping-term-ms = <0>;
             retro-tap;
             flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
