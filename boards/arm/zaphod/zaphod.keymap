@@ -56,7 +56,7 @@
     behaviors {
         skq: sticky_key_quick_release {
             compatible = "zmk,behavior-sticky-key";
-            label = "STICKY_KEY_QUICK_RELEASE";
+            // label = "STICKY_KEY_QUICK_RELEASE";
             #binding-cells = <1>;
             bindings = <&kp>;
             quick-release;
@@ -67,7 +67,7 @@
         // Useful for modifier-clicking without the modifier remaining active
         nk: not_so_sticky_key {
             compatible = "zmk,behavior-hold-tap";
-            label = "NOT_SO_STICKY_KEY";
+            // label = "NOT_SO_STICKY_KEY";
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "tap-preferred";
@@ -77,7 +77,7 @@
         // A hold-tap that activates without delay (like `&mo`)
         mo_tap: mo_with_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "MO_WITH_TAP";
+            // label = "MO_WITH_TAP";
             #binding-cells = <2>;
             tapping_term_ms = <0>;
             retro-tap;
@@ -151,7 +151,7 @@
             display-name = "ADJ";
             bindings = <
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-    &kp F12    &kp F7     &kp F8    &kp F9    &kp PSCRN         &trans          &trans          &trans       &trans       &studio_unlock
+    &kp F12    &kp F7     &kp F8    &kp F9    &kp PSCRN         &trans          &trans          &trans       &trans       &trans
     &kp F11    &kp F4     &kp F5    &kp F6    &kp SLCK          &trans          &trans          &trans       &trans       &trans
     &kp F10    &kp F1     &kp F2    &kp F3    &bt BT_CLR        &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┛
