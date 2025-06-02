@@ -45,7 +45,7 @@
 		zephyr,flash = &flash0;
 		zephyr,display = &ls0xx;
 		zmk,kscan = &kscan;
-		zmk,matrix_transform = &transform;
+		// zmk,matrix_transform = &transform;
 		zmk,battery = &vbatt;
 		zephyr,console = &cdc_acm_uart;
 		zmk,physical-layout = &physical_layout0;
