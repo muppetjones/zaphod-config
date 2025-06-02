@@ -48,7 +48,7 @@
 		zmk,matrix_transform = &transform;
 		zmk,battery = &vbatt;
 		zephyr,console = &cdc_acm_uart;
-		zmk,physical-layout = &physical_layout0
+		zmk,physical-layout = &physical_layout0;
 	};
 
 	leds {
